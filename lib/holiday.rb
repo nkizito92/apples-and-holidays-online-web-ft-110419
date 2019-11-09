@@ -71,8 +71,6 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |season, holiday|
     if season == :fourth_of_july || season == :memorial_day
       holiday
-    else 
-      false
    end
  end
 end
